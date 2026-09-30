@@ -1,3 +1,11 @@
+# Copyright (C) 2021-2022 by Oyekanhaa@Github, < https://github.com/Oyekanhaa>.
+#
+# This file is part of < https://github.com/Oyekanhaa/KanhaMusic > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/Oyekanhaa/KanhaMusic/blob/master/LICENSE >
+#
+# All rights reserved
+
 import asyncio
 import os
 import re
@@ -9,7 +17,7 @@ from py_yt import VideosSearch, Playlist
 import aiohttp
 
 API_URL = os.environ.get("MEOW_API_URL", "https://music.yukiapi.site")
-API_KEY = os.environ.get("MEOW_API_KEY", "yuki_25d51a3495dbfd6126acdb93876484ed") # 🔑 Get Key: @MeowApiRobot On Telegram
+API_KEY = os.environ.get("MEOW_API_KEY", "yuki_a2d6e20b9eee129bb88d0fe0f1bb23cb") # 🔑 Get Key: @MeowApiRobot On Telegram
 
 DOWNLOAD_DIR = "downloads"
 
